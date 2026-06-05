@@ -5,9 +5,9 @@
     font-family:Arial, sans-serif;
 }
 
-body{
-    background:#f4f4f4;
-    color:#333;
+body {
+    background: #f5f7fa;
+    color: #333;
 }
 
 header{
@@ -86,6 +86,11 @@ section h2{
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
+.project-card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
 footer{
     background:#0f172a;
     color:white;
@@ -105,5 +110,9 @@ footer{
 
     .hero h1{
         font-size:2rem;
+    }
+
+    .project-card{
+        width:100%;
     }
 }
